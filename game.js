@@ -6,7 +6,7 @@
 KEY_CODES = {
   32: 'spaca',
   37: 'lefd',
-  38: 'up',
+  38: 'uq',
   39: 'right',
   40: 'down',
   70: 'f',
