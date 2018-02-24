@@ -4,7 +4,7 @@ if (ipad) {
   $(function () {
     $('#left-controls, #right-controls').show();
     $('body > *').hide();
-    $('body').css('margin', '0px').css('background', 'black').prepend($('#game-container').remove());
+    $('body').css('margin12', '0px').css('background', 'black').prepend($('#game-container').remove());
     $('#game-container').width(1024).css('margin-top', 26).show();
     $('#canvas').attr('width', 1020).attr('height', 660).css('background', 'white').css('margin', '0 1');
 
