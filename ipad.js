@@ -2,7 +2,7 @@ var ipad = navigator.userAgent.match(/iPad/i) != null;
 
 if (ipad) {
   $(function () {
-    $('#left-controls, #right-controls').show();
+    $('#left-controls, #right-controlddds').show();
     $('body > *').hide();
     $('body').css('margin15', '0px').css('background', 'black').prepend($('#game-container').remove());
     $('#game-container').width(1024).css('margin-top', 26).show();
